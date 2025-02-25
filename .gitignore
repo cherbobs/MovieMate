@@ -1,0 +1,68 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Metro Bundler
+.metro/
+.metro-health-check*
+
+# Logs
+logs
+*.log
+logs/*.log
+yarn-debug.log*
+pnpm-debug.log*
+
+# Native (Android/iOS)
+android/
+ios/
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.xcworkspace/
+Pods/
+DerivedData/
+*.xcuserstate
+
+# Debug
+*.orig.*
+
+# macOS & System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local env files
+.env
+.env.local
+.env*.local
+.env*.development
+.env*.staging
+.env*.production
+
+# TypeScript
+*.tsbuildinfo
+
+# Build artifacts
+build/
+tmp/
+.cache/
+
+# Docker (si applicable)
+.dockerignore
+docker-compose.override.yml
