@@ -1,0 +1,11 @@
+services:
+  movie-app:
+    build: .
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: ["npx", "expo", "start", "--tunnel"]
